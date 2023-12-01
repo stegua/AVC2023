@@ -13,13 +13,15 @@ RW = [w[::-1] for w in FW]
 LW = [len(w) for w in FW]
 
 # First digit from the begging
-def Forward(line, W, L):
+def Forward(line, W, L, FIRST):
     for i, c in enumerate(line):
         if c.isdigit():
             return c
-        for j, w in enumerate(W):
-            if line[i:i+L[j]] == w:
-                return str(j+1)
+        # Only six chars over the alphabet can start a word
+        if c in FIRST: 
+            for j, w in enumerate(W):
+                if line[i:i+L[j]] == w:
+                    return str(j+1)
 
     raise Exception('no digit in line:', line)
 
@@ -29,8 +31,8 @@ def Trebouchet(filename):
 
     tot = 0
     for row in fh:
-        a = Forward(row, FW, LW)
-        b = Forward(row[::-1], RW, LW) # reverse line
+        a = Forward(row, FW, LW, 'otfsen')
+        b = Forward(row[::-1], RW, LW, 'eorxnt') # reverse line
         
         tot += int(a+b)
 
