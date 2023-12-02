@@ -6,8 +6,8 @@ Please, contact me if you have any comments or suggestions for the proposed solu
 
 ### Personal commments
 
-* **Day 1**: The first part was easy, the second harder (I failed twice). It was unclear whether the string *eightwo* should be 88 or 82 (... it was the second).
-* **Day 2**: Easy with dictionaries, both parts. Implemented in functional syle (with `map`, `reduce`, and `sum`).
+* **Day 1**: The first part was easy, the second harder (I failed twice). It was unclear whether the string `'eightwo'` should be converted into 88 or 82 (and it was the second).
+* **Day 2**: Easy with dictionaries, both first and second part. Implemented in functional syle (with `map`, `reduce`, and `sum`).
 
 ### Other languages
 
