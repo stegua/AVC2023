@@ -6,6 +6,9 @@ Please, contact me if you have any comments or suggestions for the proposed solu
 
 ### Personal commments
 
+* **Day 6**: Nice application of [quadratic equations](https://en.wikipedia.org/wiki/Quadratic_equation). This time, speding some minutes with paper and pecil before coding was very productive... and I got the best rank of these first 6 days.
+* **Day 5**: Hard job this time. The puzzle logic was easy, but to find an efficient solution was the real challenge. Using numpy array with [np.where](https://numpy.org/doc/stable/reference/generated/numpy.where.html) test, I was able to solve the puzzle in less than an hour, but it is defintely too long.
+    * **Remark**: next time, think more befor coding. I should revisit this puzzle!
 * **Day 4**: Today, for parsing cards, I use [set](https://docs.python.org/3.11/library/stdtypes.html?highlight=set#set) which checks membership in O(1) average case. Second part was cute, but not very hard. 
     * **Remark**: for a review of the time complexity of Python builtin, see [wiki.python](https://wiki.python.org/moin/TimeComplexity).
 * **Day 3**: I have admit that with a family is harder to work on AoC puzzles on Sunday. This is an ugly (unelegant) solution, but still, it works. Python dictionaries are always there the simplify the second part of the puzzle. **Remark**: 
