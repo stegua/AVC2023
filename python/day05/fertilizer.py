@@ -56,6 +56,7 @@ def Parser(filename):
                                                    Seed[idx:idx+b] + delta, S0[idx:idx+b]) 
 
             Seed = np.copy(S0)
+            print(S0)
             s = ''
             t1_stop = perf_counter()
             print("Elapsed time:", Hs[0], round(t1_stop - t1_start, 3))
@@ -77,6 +78,7 @@ def Parser(filename):
                                                    Seed[idx:idx+b] + delta, S0[idx:idx+b]) 
     t1_stop = perf_counter()
     print("Elapsed time:", round(t1_stop - t1_start, 3))
+    print(S0)
     return S0.min()
 
 
