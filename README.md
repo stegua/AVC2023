@@ -6,6 +6,7 @@ Please, contact me if you have any comments or suggestions for the proposed solu
 
 ### Personal commments
 
+* **Day 7**: A classic puzzle! Quasi-poker card game, with custom orders for handling jokers. Easy, no remarks.
 * **Day 5 BIS**: This time I used a disciplined approach: first, draw on a blackboard; second, code with intervals and recursioins. Going down from an hour of runtime to 0.001 seconds is quite rewarding. And I didn't need numpy at all. Here the second solution: [fertilizer_v2.py](https://github.com/stegua/AVC2023/tree/main/python/day05)
 * **Day 6**: Nice application of [quadratic equations](https://en.wikipedia.org/wiki/Quadratic_equation). This time, speding some minutes with paper and pecil before coding was very productive... and I got the best rank of these first 6 days.
 * **Day 5**: Hard job this time. The puzzle logic was easy, but to find an efficient solution was the real challenge. Using numpy array with [np.where](https://numpy.org/doc/stable/reference/generated/numpy.where.html) test, I was able to solve the puzzle in less than an hour, but it is defintely too long.
