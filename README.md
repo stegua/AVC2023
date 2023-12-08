@@ -6,6 +6,8 @@ Please, contact me if you have any comments or suggestions for the proposed solu
 
 ### Personal commments
 
+* **Day 8**: Almost as hard as Day 5, but this time brute force didn't work at all. I need to draw a directed graph, detect cycles, and then to reason in term of period and *least commom multiple*.
+    * **REMARK**: From Python 3.9+, there exists the builtin [lcm](https://docs.python.org/3/library/math.html#math.lcm), for computing [least common multiple](https://stackoverflow.com/questions/51716916/built-in-module-to-calculate-the-least-common-multiple).
 * **Day 7**: A classic puzzle! A poker-like card game, with a custom order for handling jokers. Easy, no remarks.
 * **Day 5 BIS**: This time I used a disciplined approach: first, draw on a blackboard; second, code with intervals and recursioins. Going down from an hour of runtime to 0.001 seconds is quite rewarding. And I didn't need numpy at all. Here the second solution: [fertilizer_v2.py](https://github.com/stegua/AVC2023/tree/main/python/day05)
 * **Day 6**: Nice application of [quadratic equations](https://en.wikipedia.org/wiki/Quadratic_equation). This time, speding some minutes with paper and pecil before coding was very productive... and I got the best rank of these first 6 days.
