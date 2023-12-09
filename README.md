@@ -6,6 +6,7 @@ Please, contact me if you have any comments or suggestions for the proposed solu
 
 ### Personal commments
 
+* **Day 9**: Nothing to declare. That's fine, since it is Saturday after all! 
 * **Day 8**: Almost as hard as Day 5, but this time brute force didn't work at all. I need to draw a directed graph, detect cycles, and then to reason in term of period and *least commom multiple*.
     * **REMARK**: From Python 3.9+, there exists the builtin [lcm](https://docs.python.org/3/library/math.html#math.lcm), for computing [least common multiple](https://stackoverflow.com/questions/51716916/built-in-module-to-calculate-the-least-common-multiple).
 * **Day 7**: A classic puzzle! A poker-like card game, with a custom order for handling jokers. Easy, no remarks.
