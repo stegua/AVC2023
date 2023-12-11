@@ -29,3 +29,4 @@ Please, contact me if you have any comments or suggestions for the proposed solu
 
 * [Pietroppeter](https://github.com/pietroppeter/adventofcode2023) is publishing solutions in [NIM](https://nim-lang.org/) and [Gleam](https://gleam.io/)
 * [Hakank](http://hakank.org/advent-of-code-2023/) is publishing solutions in [Picat](http://www.picat-lang.org/) and [SWI-Prolog](https://www.swi-prolog.org/) (... old good Prolog!).
+* [Peter Norvig](https://norvig.com/) has a complete collection of solutions for past editions, among other [PyTudes](https://github.com/norvig/pytudes).
