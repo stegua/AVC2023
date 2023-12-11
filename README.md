@@ -7,7 +7,7 @@ Please, contact me if you have any comments or suggestions for the proposed solu
 ### Personal commments
 
 * **[Day 11](https://github.com/stegua/AVC2023/blob/main/python/day11/solution.py)**: Easy, with numpy [matrices](https://numpy.org/doc/stable/reference/generated/numpy.matrix.html). Nothing to declare, but it nice to plot the galaxies with [imshow](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html).
-* **[Day 10](https://github.com/stegua/AVC2023/blob/main/python/day10/solution.py)**: It's hard to work on Sunday. Part 2 is completed.
+* **[Day 10](https://github.com/stegua/AVC2023/blob/main/python/day10/solution.py)**: It's hard to work on Sunday, but Part 2 was completed on Monday.
     * **REMARK**: Plotting matrices with [imshow](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html) helps in getting insights for [inside](https://github.com/stegua/AVC2023/blob/main/python/day10/dump1.png) and [outside](https://github.com/stegua/AVC2023/blob/main/python/day10/dump3.png) galaxies.
 * **[Day 9](https://github.com/stegua/AVC2023/blob/main/python/day09/solution.py)**: Nothing to declare. That's fine, since it is Saturday after all! 
 * **Day 8**: Almost as hard as Day 5, but this time brute force didn't work at all. I need to draw a directed graph, detect cycles, and then to reason in term of period and *least commom multiple*.
