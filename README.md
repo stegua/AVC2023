@@ -6,6 +6,8 @@ Please, contact me if you have any comments or suggestions for the proposed solu
 
 ### Personal commments
 
+* **[Day 11](https://github.com/stegua/AVC2023/blob/main/python/day11/solution.py)**: Easy, with numpy [matrices](https://numpy.org/doc/stable/reference/generated/numpy.matrix.html). Nothing to declare, but it nice to plot the galaxies with [imshow](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html).
+* **[Day 10.1](https://github.com/stegua/AVC2023/blob/main/python/day10/solution.py)**: It's hard to work on Sunday. Part 2 is still missing, I need the time to implement my idea.
 * **[Day 9](https://github.com/stegua/AVC2023/blob/main/python/day09/solution.py)**: Nothing to declare. That's fine, since it is Saturday after all! 
 * **Day 8**: Almost as hard as Day 5, but this time brute force didn't work at all. I need to draw a directed graph, detect cycles, and then to reason in term of period and *least commom multiple*.
     * **REMARK**: From Python 3.9+, there exists the builtin [lcm](https://docs.python.org/3/library/math.html#math.lcm), for computing [least common multiple](https://stackoverflow.com/questions/51716916/built-in-module-to-calculate-the-least-common-multiple).
