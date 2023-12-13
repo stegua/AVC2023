@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Day XX of Advent of Code, December 2023
+Day 13 of Advent of Code, December 2023
 https://adventofcode.com/
 
 @author: gualandi
