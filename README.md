@@ -6,6 +6,7 @@ Please, contact me if you have any comments or suggestions for the proposed solu
 
 ### Personal commments
 
+* **[Day 13](https://github.com/stegua/AVC2023/blob/main/python/day13/solution.py)**: The puzzle was hard not because of coding, but because it was hard to understand the assignment. Solved with numpy matrices, [not_equal](https://numpy.org/doc/stable/reference/generated/numpy.not_equal.html), and [zip](https://docs.python.org/3.3/library/functions.html#zip). 
 * **[Day 12](https://github.com/stegua/AVC2023/blob/main/python/day12/solution.py)**: This one was hard, until I realized that using tuples (read only) instead of lists (unhashable) as input arguments to function enables the decorator [@cache](https://docs.python.org/3.9/library/functools.html#functools.cache), which implements lightweight **[memoization](https://en.wikipedia.org/wiki/Memoization)**. For differences between @cache and @lru_cache, read [this post](https://stackoverflow.com/questions/70301475/difference-between-functools-cache-and-lru-cache).
 * **[Day 11](https://github.com/stegua/AVC2023/blob/main/python/day11/solution.py)**: Easy, with numpy [matrices](https://numpy.org/doc/stable/reference/generated/numpy.matrix.html). Nothing to declare, but it nice to plot the galaxies with [imshow](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html).
 * **[Day 10](https://github.com/stegua/AVC2023/blob/main/python/day10/solution.py)**: It's hard to work on Sunday, but Part 2 was completed on Monday.

@@ -161,3 +161,4 @@ cython_debug/
 .DS_Store
 *.txt
 adventOfCode.code
+python/day13/solution_visual.py
