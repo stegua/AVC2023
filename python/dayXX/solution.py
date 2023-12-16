@@ -7,18 +7,21 @@ https://adventofcode.com/
 """
 
 import argparse
+from time import perf_counter
 
-# Example of input:
-# .....
+import numpy as np
+from numpy import matrix, zeros
 
-def ParserOne(filename):
-    fh = open(filename, mode='r', encoding='utf-8')
-    print(fh.readline())
+def PartOne():
     return 0
 
-def ParserTwo(filename):
+
+def PartTwo():
+    return 0
+
+
+def Parser(filename):
     fh = open(filename, mode='r', encoding='utf-8')
-    print(fh.readline())
     return 0
 
 
@@ -27,8 +30,10 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--filename', default='./small.txt', type=str, required=False)
 args = parser.parse_args()
 
-print('Part 1:', ParserOne(args.filename))
+t0 = perf_counter() 
+print('Part 1:', Parser(args.filename, PartOne), 'time:', round(perf_counter() - t0, 3))
 # Solution: 
 
-print('Part 2:', ParserTwo(args.filename))
+#t0 = perf_counter() 
+#print('Part 2:', Parser(args.filename, PartTwo), 'time:', round(perf_counter() - t0, 3))
 # Solution: 
