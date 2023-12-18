@@ -6,6 +6,7 @@ Please, contact me if you have any comments or suggestions for the proposed solu
 
 ### Personal commments
 
+* **[Day 17](https://github.com/stegua/AVC2023/blob/main/python/day17/solution.py)** Best puzzle so far! Solved using [A* (a-star)](https://en.wikipedia.org/wiki/A*_search_algorithm) search algorithm with a [heap](https://docs.python.org/3.11/library/heapq.html#priority-queue-implementation-notes) priority queue.
 * **[Day 16](https://github.com/stegua/AVC2023/blob/main/python/day16/solution.py)** Easy puzzle, but it was the occasion to play with [namedtuple](https://docs.python.org/3/library/collections.html#collections.namedtuple).
 * **[Day 15](https://github.com/stegua/AVC2023/blob/main/python/day15/solution.py)** Finally, an easy puzzle.
 * **[Day 14](https://github.com/stegua/AVC2023/blob/main/python/day14/solution.py)** This time I implemented my own **memoization** over a numpy matrix using the builtin [hash](https://docs.python.org/3/library/functions.html#hash) as suggested in a comment [here](https://stackoverflow.com/questions/16589791/most-efficient-property-to-hash-for-numpy-array).
