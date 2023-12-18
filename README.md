@@ -6,6 +6,7 @@ Please, contact me if you have any comments or suggestions for the proposed solu
 
 ### Personal commments
 
+* **[Day 18](https://github.com/stegua/AVC2023/blob/main/python/day18/solution.py)** Once you realize that the puzzle is about computing the area of a closed simple polygon, than you can implement the corresponding [closed formula](https://en.wikipedia.org/wiki/Polygon#Area), a particular type of [Shoelace formula](https://en.wikipedia.org/wiki/Shoelace_formula).
 * **[Day 17](https://github.com/stegua/AVC2023/blob/main/python/day17/solution.py)** Best puzzle so far! Solved using [A* (a-star)](https://en.wikipedia.org/wiki/A*_search_algorithm) search algorithm with a [heap](https://docs.python.org/3.11/library/heapq.html#priority-queue-implementation-notes) priority queue.
 * **[Day 16](https://github.com/stegua/AVC2023/blob/main/python/day16/solution.py)** Easy puzzle, but it was the occasion to play with [namedtuple](https://docs.python.org/3/library/collections.html#collections.namedtuple).
 * **[Day 15](https://github.com/stegua/AVC2023/blob/main/python/day15/solution.py)** Finally, an easy puzzle.
