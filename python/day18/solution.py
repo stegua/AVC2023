@@ -3,6 +3,14 @@
 Day 18 of Advent of Code, December 2023
 https://adventofcode.com/
 
+
+Benchmark on Mac Book Air - M2
+
+% hyperfine --runs 10 'python3 solution.py -f input.txt'
+Benchmark 1: python3 solution.py -f input.txt
+  Time (mean ± σ):      17.8 ms ±   1.3 ms    [User: 14.1 ms, System: 3.1 ms]
+  Range (min … max):    17.1 ms …  21.4 ms    10 runs
+
 @author: gualandi
 """
 
