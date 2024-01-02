@@ -2,11 +2,11 @@
 
 This repository contains my solutions in Python for the puzzles of [Advent of Code 2023](https://adventofcode.com/).
 
-Until day 19, I was on track. Then, the real family holydays started. Now, I am trying to close in missing puzzles in spare time.
+Until day 19, I was on track. Then, the real family holydays started. Now, I am trying to close in missing puzzles during spare time.
 
 Please, contact me if you have any comments or suggestions for the proposed solutions.
 
-### Other languages
+### Other solutions and/or programming languages
 
 * [Dávid Németh](https://aoc.csokavar.hu/) publish nice C# solutions.
 * [Daria Vasyukova](https://github.com/gereleth/aoc_python/tree/main) has pretty clean Python solutions with very beatiful animations, implemented using [PyGame](https://www.pygame.org/).
