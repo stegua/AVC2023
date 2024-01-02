@@ -2,10 +2,29 @@
 
 This repository contains my solutions in Python for the puzzles of [Advent of Code 2023](https://adventofcode.com/).
 
+Until day 19, I was on track. Then, the real family holydays started. Now, I am trying to close in missing puzzles in spare time.
+
 Please, contact me if you have any comments or suggestions for the proposed solutions.
+
+### Other languages
+
+* [Dávid Németh](https://aoc.csokavar.hu/) publish nice C# solutions.
+* [Daria Vasyukova](https://github.com/gereleth/aoc_python/tree/main) has pretty clean Python solutions with very beatiful animations, implemented using [PyGame](https://www.pygame.org/).
+* [Pietroppeter](https://github.com/pietroppeter/adventofcode2023) is publishing solutions in [NIM](https://nim-lang.org/) and [Gleam](https://gleam.io/)
+* [Hakank](http://hakank.org/advent-of-code-2023/) is publishing solutions in [Picat](http://www.picat-lang.org/) and [SWI-Prolog](https://www.swi-prolog.org/) (... old good Prolog!).
+* [Peter Norvig](https://norvig.com/) has a complete collection of solutions for past editions, among other [PyTudes](https://github.com/norvig/pytudes).
+
 
 ### Personal commments
 
+* **[Day 25](https://github.com/stegua/AVC2023/blob/main/python/day20/solution.py)** Still missing...
+* **[Day 24](https://github.com/stegua/AVC2023/blob/main/python/day20/solution.py)** Still missing...
+* **[Day 23](https://github.com/stegua/AVC2023/blob/main/python/day20/solution.py)** Still missing...
+* **[Day 22](https://github.com/stegua/AVC2023/blob/main/python/day20/solution.py)** Still missing...
+
+* **[Day 21](https://github.com/stegua/AVC2023/blob/main/python/day21/solution.py)** Part 1 is easy, while Part 2 was a real challenge. The intution of using a polynomial fitting of degree 2 (a *parabola*) came straight, but filling in the details, was hard. I have learned using [np.polyfit](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html). Strange enough, `wc -l input` was counting 130 rows instead of 131, and this made me crazy. Fixed after reading [this post](https://aoc.csokavar.hu/?day=21).
+* **[Day 20](https://github.com/stegua/AVC2023/blob/main/python/day20/solution.py)** Still missing...
+* **[Day 19.part 1](https://github.com/stegua/AVC2023/blob/main/python/day19/solution.py)** Working on solving part 2 (part 1 was easy).
 * **[Day 18](https://github.com/stegua/AVC2023/blob/main/python/day18/solution.py)** Once you realize that the puzzle is about computing the area of a closed simple polygon, than you can implement the corresponding [closed formula](https://en.wikipedia.org/wiki/Polygon#Area), a particular type of [Shoelace formula](https://en.wikipedia.org/wiki/Shoelace_formula).
 * **[Day 17](https://github.com/stegua/AVC2023/blob/main/python/day17/solution.py)** Best puzzle so far! Solved using [A* (a-star)](https://en.wikipedia.org/wiki/A*_search_algorithm) search algorithm with a [heap](https://docs.python.org/3.11/library/heapq.html#priority-queue-implementation-notes) priority queue.
 * **[Day 16](https://github.com/stegua/AVC2023/blob/main/python/day16/solution.py)** Easy puzzle, but it was the occasion to play with [namedtuple](https://docs.python.org/3/library/collections.html#collections.namedtuple).
@@ -32,8 +51,3 @@ Please, contact me if you have any comments or suggestions for the proposed solu
 * **[Day 1](https://github.com/stegua/AVC2023/blob/main/python/day01/trebouchet.py)** The first part was easy, the second harder (I failed twice). It was unclear whether the string `'eightwo'` should be converted into 88 or 82 (and it was the second). 
     * **Remark**: I learned how to reverse a string with [slicing](https://www.digitalocean.com/community/tutorials/python-reverse-string).
 
-### Other languages
-
-* [Pietroppeter](https://github.com/pietroppeter/adventofcode2023) is publishing solutions in [NIM](https://nim-lang.org/) and [Gleam](https://gleam.io/)
-* [Hakank](http://hakank.org/advent-of-code-2023/) is publishing solutions in [Picat](http://www.picat-lang.org/) and [SWI-Prolog](https://www.swi-prolog.org/) (... old good Prolog!).
-* [Peter Norvig](https://norvig.com/) has a complete collection of solutions for past editions, among other [PyTudes](https://github.com/norvig/pytudes).
